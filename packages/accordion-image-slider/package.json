@@ -1,5 +1,5 @@
 {
-  "name": "accordion-image-slider",
+  "name": "@uncommon-ui/accordion-image-slider",
   "version": "0.0.1-alpha.0",
   "description": "React component for making image accordion slider",
   "keywords": [
@@ -13,13 +13,6 @@
   "homepage": "",
   "license": "MIT",
   "main": "dist/index.js",
-  "directories": {
-    "lib": "src",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "babel src -d dist --ignore **/*.test.js",
@@ -29,9 +22,7 @@
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },
-  "dependencies": {
-    "rimraf": "^2.6.3"
-  },
+  "dependencies": {},
   "publishConfig": {
     "access": "public"
   },
@@ -47,6 +38,7 @@
     "eslint": "^5.15.3",
     "eslint-plugin-react": "^7.12.4",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "rimraf": "^2.6.3"
   }
 }
