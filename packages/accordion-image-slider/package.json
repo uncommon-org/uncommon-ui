@@ -10,7 +10,6 @@
     "slider"
   ],
   "author": "Sambhav Gore <sambhavgore@gmail.com>",
-  "homepage": "",
   "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
