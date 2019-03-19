@@ -1,0 +1,13 @@
+{
+  "presets": [
+    ["@babel/preset-env", { "targets": { "node": "current" } }],
+    "@babel/preset-react"
+  ],
+  "ignore": [
+    "./node_modules",
+    "./.babelrc",
+    "./package.json",
+    "./npm-debug.log",
+    "./yarn-error.log"
+  ]
+}
